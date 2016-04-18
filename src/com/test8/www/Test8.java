@@ -6,7 +6,7 @@ import org.junit.Assert.*;
 import javax.xml.ws.soap.Addressing;
 
 /**
- * Created by Ivan on 3/21/2016.
+ * Unit tests
  */
 public class Test8 {
 

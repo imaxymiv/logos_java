@@ -5,7 +5,9 @@ import com.test5.com.*;
 import java.util.*;
 
 /**
- * Created by Ivan on 3/7/2016.
+ * Collections
+ * compareTo
+ * equals
  */
 public class Test6 {
     public static void main(String[] args) {

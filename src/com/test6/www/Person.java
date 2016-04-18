@@ -3,7 +3,7 @@ package com.test6.www;
 /**
  * Created by Ivan on 3/7/2016.
  */
-public class Person implements  Comparable<Person>{
+public class Person implements Comparable<Person> {
 
     int age;
     String gender;
@@ -45,9 +45,9 @@ public class Person implements  Comparable<Person>{
     @Override
     public int compareTo(Person o) {
         int res = this.age - o.age;
-        if(res==0){
+        if (res == 0) {
             res = this.gender.compareTo(o.gender);
-            return  res;
+            return res;
         }
         return res;
     }
